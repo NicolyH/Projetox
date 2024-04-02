@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 :root {
@@ -85,9 +86,9 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
- #switch button:hover {
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
- }
+}
 
 #switch span {
   display: block;
